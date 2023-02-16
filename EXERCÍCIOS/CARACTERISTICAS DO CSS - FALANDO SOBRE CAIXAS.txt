@@ -1,0 +1,12 @@
+altura - height
+largura - width
+borda - border "contorno"
+preenchimento - padding "antes da borda" "fica entre o conteudo e a borda"
+margem - margin "após a borda e antes da outline" 
+traçado - outline "após a borda
+
+box-level "sempre pula para a proxima linha e ocupa o preenchimento da tela inteira" <div> <h1>-<h6> <p> <main> <header> <nav> <article> aside> <footer> <form> <video>
+
+inline-level "nao pula a linha, continua de onde parou e finaliza naquela linha mesmo" <span> <a> <code> <small> <strong> <em> <sup>-<sub> <label> <button> <input> <select>
+
+display: block; "torna aquela caixa/bloco do tipo BOX-LEVEL"

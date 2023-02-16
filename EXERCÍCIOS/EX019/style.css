@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+
+Tudo que em HTML virar ID, no CSS vai virar #
+HTML: h1 id="principal"
+CSS: h1#principal
+
+Tudo que em HTML for class, vai virar . "ponto"
+HTML: h2 class="basico"
+CSS: h2.basico
+
+Podemos aplicar mais de uma classe no documento e ainda podemos também colocar ID "lembrando que ID ganha de CLASSE, então o estilo dele pode sobrepor o que tiver na classe"
+
+ID = Só pode ter um tipo de ID por documento HTML
+CLASSE = Pode ter quantas quiser no mesmo documento HTML
+
+*/
+
+body{
+    background-color: rgb(207, 255, 160);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: darkgreen;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: darkgreen;
+    color:rgb(207, 255, 160);
+}
+
+h2{
+    color:darkolivegreen;
+}
+
+.basico{
+    color:rgb(110, 206, 15);
+}
+
+.intermediario{
+    color: rgb(172, 172, 5);
+}
+
+.avancado{
+    color:brown;
+}
+
+.destaque{
+    background-color: rgba(137, 43, 226, 0.596);
+}

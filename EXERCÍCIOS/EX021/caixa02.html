@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: blanchedalmond;
+        }
+        header{
+            background-color: red;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(202, 242, 255);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315); /*Deslocamento HORIZONTAL "esquerda, direita", deslocamento VERTICAL "cima, baixo", sombra*/
+        }
+        nav > a{
+            text-decoration: none;
+            color: rgb(139, 0, 0);
+            font-weight: bold;
+            margin: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;            
+        }
+        main{
+            background-color: rgb(223, 240, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: lightgreen;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(110, 209, 110);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p{
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#" target="_blank">Inicio</a>
+            <a href="#" target="_blank">Contato</a>
+            <a href="#" target="_blank">Loja</a>
+            <a href="#" target="_blank">Blog</a>
+            <a href="#" target="_blank">Carrinho</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsam laboriosam quis, voluptatum magnam error quia, dolor fugit, fugiat quas praesentium! Quia est corporis eligendi rem ea praesentium quidem sequi.</p>
+                <aside>
+                    <p>Artigo escrito por Fulado de Tal</p>
+                </aside>
+            </article>
+
+            <article>
+
+            </article>
+        </section>
+ 
+    </main>
+
+    <footer>
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+
+</body>
+</html>
